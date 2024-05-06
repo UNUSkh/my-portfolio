@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram,FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 const Footer = () => {
@@ -9,14 +9,14 @@ const Footer = () => {
     <footer>
       <h4>Copyright &copy; {year} | All Rights Reserved.</h4>
       <div className="footerLinks">
-        <a href="https://github.com/EshaalB" target="_blank">
+        <a href="https://github.com/UNUSkh" target="_blank">
           <FaGithub />
         </a>
-        <a href="https://instagram.com/eshaaldev" target="_blank">
-          <FaInstagram />
+        <a href="https://www.linkedin.com/in/younes-ayoub-khoya/" target="_blank">
+          <FaLinkedin />
         </a>
 
-        <a href="mailTo:work.eshaaldev@protonmail.com" target="_blank">
+        <a href="mailTo:youneskhoya27@gmail.com" target="_blank">
           <GrMail />
         </a>
       </div>

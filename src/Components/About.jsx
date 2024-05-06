@@ -5,27 +5,21 @@ const About = () => {
   return (
     <>
       <div className="AboutPage">
-        <div className="AboutText">
+      <div className="AboutText">
           <h1 className="AboutTextHeading">
             Get to <b>know</b> me!
           </h1>
-          <p>
-            Hi, my name is <b>Khoya Younes Ayoub</b> and I am from Lahore,
-            Pakistan. I'm a <b>Frontend web developer</b> and a first year
-            university student pursuing <b>BS in Computer Science</b>. <br />
-            <br />
-            I love to create projects with beautiful designs and put my own
-            twists on it, you can check out some of my work in the projects
-            section.
-            <br />
-            <br />I am <b>open</b> to new collaborations or work where I can
-            contribute and grow. Feel free to connect with me, links are in the
-            footer.
-            <br />
-            Apart from coding I love to make discord servers,designs and do
-            photography in my spare time.
-          </p>
-          <a href="Resume.pdf" download className="resume-btn">
+
+          <p><h2>
+            <b>Hello</b> there!</h2><br />
+
+            I'm <b>Younes Ayoub</b> Khoya,<br />
+            a <b>Fullstack Developper</b> actively seeking apprenticeship opportunities. With a passion for technology and a solid foundation in <b>programming,</b> I'm eager to gain hands-on experience in the <b>software engineering</b> field.
+            <br /><br />
+            I'm excited about the prospect of contributing to real-world projects and learning from industry <b>professionals</b>. Take a look at my portfolio to learn more about my skills and projects. If you have any <b>apprenticeship opportunities</b> available or would like to connect, I'd love to hear from you!
+
+            Thank you for stopping by!</p>
+          <a  href="src\images\MyCV.pdf" download className="resume-btn">
             <button>
               Download Resume <FaFileDownload></FaFileDownload>
             </button>
@@ -35,19 +29,22 @@ const About = () => {
         <div></div>
       </div>
 
-      <h1 className="SkillsHeading"> Skillset</h1>
+      <h1 className="SkillsHeading">My <b>Skillset</b></h1>
       <div className="skills">
         <Skills skill="HTML" />
         <Skills skill="CSS" />
-        <Skills skill="Bootstrap" />
-        <Skills skill="Tailwind" />
-        <Skills skill="Javascript" />
+        <Skills skill="Dart" />
+        <Skills skill="Flutter" />
+        <Skills skill="python" />
+        <Skills skill="NodeJs" />
         <Skills skill="React" />
+        <Skills skill="ExpressJs" />
+        <Skills skill="MongoDb" />
         <Skills skill="Git" />
         <Skills skill="Github" />
-        <Skills skill="C++" />
-        <Skills skill="Figma" />
-        <Skills skill="Npm" />
+        <Skills skill="Php" />
+        <Skills skill="Java" />
+        <Skills skill="others" />
       </div>
     </>
   );

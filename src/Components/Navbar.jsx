@@ -7,9 +7,9 @@ import { CgPhone } from "react-icons/cg";
 
 const Nav = () => {
   const [navbarblur, setnavbarblur] = useState(false);
-
+  const [selected, setselected] = useState("Home");
   function scrollHandler() {
-    if (window.scrollY >= 20) {
+    if (window.scrollY >= 10) {
       setnavbarblur(true);
     } else {
       setnavbarblur(false);
@@ -34,7 +34,23 @@ const Nav = () => {
     bar[2].classList.remove("barThree");
     ham[0].classList.remove("showNavbar");
   };
-
+  var selecthome = () => {
+    hideMenu();
+    setselected("Home");
+    console.log(selected);
+  }
+  var selectabout = () => {
+    hideMenu();
+    setselected("about"); 
+  }
+  var selectproject = () => {
+    hideMenu();
+    setselected("project"); 
+  }
+  var selectcontact = () => {
+    hideMenu();
+    setselected("contact"); 
+  }
   window.addEventListener("scroll", scrollHandler);
 
   return (
@@ -44,7 +60,7 @@ const Nav = () => {
         onClick={() => window.location.reload(true)}
         className="Logo"
       >
-        ER
+        YAK
       </h1>
 
       <div className="Hamburger" onClick={showMenu}>
@@ -54,26 +70,30 @@ const Nav = () => {
       </div>
 
       <ul className="NavbarLinks">
-        <li onClick={hideMenu}>
+        <li onClick={selecthome}>
           <Link to="/">
             <AiOutlineHome /> Home
           </Link>
+         {selected=="Home"?<div className="selected"></div>:<div></div> } 
         </li>
-        <li onClick={hideMenu}>
+        <li onClick={selectabout}>
           <Link to="/About">
             <BsPerson /> About
           </Link>
+          {selected=="about"?<div className="selected"></div>:<div></div> }
         </li>
-        <li onClick={hideMenu}>
+        <li onClick={selectproject}>
           <Link to="/Project">
             <BsCodeSlash /> Projects
           </Link>
+          {selected=="project"?<div className="selected"></div>:<div></div> }
         </li>
-        <li onClick={hideMenu}>
+        <li onClick={selectcontact}>
           <Link to="/Contact">
             <CgPhone />
             Contact
           </Link>
+          {selected=="contact"?<div className="selected"></div>:<div></div> }
         </li>
       </ul>
     </nav>

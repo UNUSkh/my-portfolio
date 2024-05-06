@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
 import FilmImage from "../images/Film.png";
-import GymImage from "../images/gym.png";
+import GymImage from "../images/doctor.jpg";
 import ColourImage from "../images/colour.png";
 import BackpackImage from "../images/backpack.png";
 
@@ -12,10 +12,10 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
-        <ProjectBox projectPhoto={GymImage} projectName="Levels" />
-        <ProjectBox projectPhoto={FilmImage} projectName="Movie" />
-        <ProjectBox projectPhoto={ColourImage} projectName="ColourPalette" />
-        <ProjectBox projectPhoto={BackpackImage} projectName="Backpack" />
+        <ProjectBox projectPhoto={GymImage} projectName="Doctori" />
+        <ProjectBox projectPhoto={""} projectName="Dashboard" />
+        <ProjectBox projectPhoto={""} projectName="ENCG_Incident_Manager" />
+        <ProjectBox projectPhoto={""} projectName="OTHERS" />
       </div>
     </div>
   );
