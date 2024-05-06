@@ -57,7 +57,9 @@ const Nav = () => {
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
       <h1
         title="Reload"
-        onClick={() => window.location.reload(true)}
+
+        onClick={() => {window.location.href = '/';
+          window.location.reload(true)}}
         className="Logo"
       >
         YAK
