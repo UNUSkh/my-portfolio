@@ -576,5 +576,8 @@ a {
   src: url("garamond.ttf");
   mix-blend-mode: screen;
   font-size: 130px;
-  margin-top: 10%;
+  margin-top: 20%;
+  margin-left: 10%;
+  
+  margin-bottom: -30%;
 }
