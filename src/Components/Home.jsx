@@ -48,6 +48,9 @@ const Home = () => {
         </Tilt>:<div></div> }
         
       </div>
+      {windowSize>480?<div></div>:<Tilt>
+          <h3 className="Avatar"  >UNUS</h3>
+        </Tilt> }
     </div>
   );
 };
