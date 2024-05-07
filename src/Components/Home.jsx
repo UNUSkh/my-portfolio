@@ -22,7 +22,9 @@ const Home = () => {
     };
   }, []);
   return (
-    <div>
+    <div>{windowSize>480?<div></div>:<Tilt>
+    <h3 className="Avatar2"  >UNUS</h3>
+  </Tilt> }
       <div className="HomePage">
         <div className="HomeText">
           <h1>HELLO THERE!</h1>
@@ -48,9 +50,7 @@ const Home = () => {
         </Tilt>:<div></div> }
         
       </div>
-      {windowSize>480?<div></div>:<Tilt>
-          <h3 className="Avatar"  >UNUS</h3>
-        </Tilt> }
+      
     </div>
   );
 };

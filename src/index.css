@@ -571,3 +571,10 @@ a {
   font-size: 150px;
   margin-top: 100px;
 }
+.Avatar2 {
+  font-family: garamond;
+  src: url("garamond.ttf");
+  mix-blend-mode: screen;
+  font-size: 130px;
+  margin-top: 10%;
+}
