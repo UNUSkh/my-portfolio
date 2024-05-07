@@ -16,7 +16,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "This mobile application, developed using Flutter, is designed for incident management within ENCG Casablanca. It is intended for use by both security personnel and school professors. The application facilitates quick incident management and reporting, thereby contributing to maintaining a safe and secure environment within the institution.",
    
     OTHERSDesc:
-      "The other project are going to be published soon...",
+      "The other projects are going to be published soon...",
      };
 
   return (
