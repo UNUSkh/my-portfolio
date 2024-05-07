@@ -22,9 +22,7 @@ const Home = () => {
     };
   }, []);
   return (
-    <div>{windowSize>480?<div></div>:<Tilt>
-    <h3 className="Avatar2"  >UNUS</h3>
-  </Tilt> }
+    <div>
       <div className="HomePage">
         <div className="HomeText">
           <h1>HELLO THERE!</h1>
