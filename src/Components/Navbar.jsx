@@ -79,7 +79,7 @@ const Nav = () => {
         </li>
         <li onClick={selectabout}>
           <Link to="/About">
-            <BsPerson /> About
+            <BsPerson /> About Me
           </Link>
           {selected=="about"?<div className="selected"></div>:<div></div> }
         </li>
