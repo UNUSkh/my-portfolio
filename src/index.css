@@ -558,12 +558,7 @@ a .submit-btn {
 a {
   text-decoration: none;
 }
-.submitted-message {
-  text-align: center;
-  color: #ffffff;
-  font-weight: bold;
-  margin-top: 20px;
-}
+
 .Avatar {
   font-family: garamond;
   src: url("garamond.ttf");

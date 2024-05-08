@@ -2,8 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
-import { BsPerson, BsCodeSlash } from "react-icons/bs";
-import { CgPhone } from "react-icons/cg";
+import { BsPerson } from "react-icons/bs";
+import { IoIosGitNetwork } from "react-icons/io";
+import { LuPhone } from "react-icons/lu";
 
 const Nav = () => {
   const [navbarblur, setnavbarblur] = useState(false);
@@ -84,13 +85,13 @@ const Nav = () => {
         </li>
         <li onClick={selectproject}>
           <Link to="/Project">
-            <BsCodeSlash /> Projects
+            <IoIosGitNetwork /> Projects
           </Link>
           {selected=="project"?<div className="selected"></div>:<div></div> }
         </li>
         <li onClick={selectcontact}>
           <Link to="/Contact">
-            <CgPhone />
+            <LuPhone />
             Contact
           </Link>
           {selected=="contact"?<div className="selected"></div>:<div></div> }
