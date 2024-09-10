@@ -19,7 +19,7 @@ const About = () => {
             I'm excited about the prospect of contributing to real-world projects and learning from industry <b>professionals</b>. Take a look at my portfolio to learn more about my skills and projects. If you have any <b>apprenticeship opportunities</b> available or would like to connect, I'd love to hear from you!
 
             Thank you for stopping by!</p>
-          <a  href="https://drive.google.com/file/d/1BPsKQ7KDrY5IVYOpmLvEt5K-Y0l_ly0g/view?usp=drive_link" target="_blank" className="resume-btn" >
+          <a  href="https://drive.google.com/file/d/1IhPjMHX4mpx2cZ9RiDewWKrFDU24f9Yn/view?usp=drive_link" target="_blank" className="resume-btn" >
             <button>
               Download Resume <FaFileDownload></FaFileDownload>
             </button>
